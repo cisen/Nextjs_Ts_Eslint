@@ -7,6 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "start:static": "serve",
     "help": "next export -h",
     "export": "npm run build && next export",
     "deploy": "NODE_ENV=production npm run build && next export -o docs && touch docs/.nojekyll",
@@ -77,6 +78,7 @@
     "jest": "^24.8.0",
     "jest-emotion": "^10.0.14",
     "prettier": "^1.18.2",
+    "serve": "^11.1.0",
     "typescript": "^3.5.3"
   }
 }
